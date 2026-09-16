@@ -1,0 +1,10 @@
+
+services:
+  # 1. The Web Server Shield
+  nginx_proxy:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+
+    volumes:
+      - "C:/Users/adity/OneDrive/coding/nginx:/usr/share/nginx/html"
