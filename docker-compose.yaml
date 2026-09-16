@@ -8,3 +8,4 @@ services:
 
     volumes:
       - "C:/Users/adity/OneDrive/coding/nginx:/usr/share/nginx/html"
+      - "./nginx.conf:/etc/nginx/nginx.conf:ro"
